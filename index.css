@@ -385,7 +385,7 @@ body > div > div.header-section > div > div.header__desc > p > span {
   font-family: "Bebas Neue";
   margin-bottom: 5px;
   font-size: 18px;
-  color: #333;
+  color: #666;
 }
 
 input:active, input:focus, textarea:active, textarea:focus {
