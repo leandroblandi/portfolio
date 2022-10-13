@@ -343,9 +343,7 @@ body > div > div.header-section > div > div.header__desc > p > span {
   margin: 30px auto;
   display: flex;
   flex-direction: column;
-  background: url("./static/contact_background.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #ededed;
   color: #fff;
   padding: 40px 40px;
   user-select: none;
