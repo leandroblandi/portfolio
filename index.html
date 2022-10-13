@@ -182,15 +182,15 @@
                 <form method="POST" action="POST" data-netlify="true">
                     <div class="form__body__entry">
                         <span>Name</span>
-                        <input type="text" name="name" id="senderName" class="form__name">
+                        <input type="text" name="name" id="senderName" class="form__name" required>
                     </div>
                     <div class="form__body__entry">
                         <span>E-Mail</span>
-                        <input type="email" name="email" form="form__subject">
+                        <input type="email" name="email" form="form__subject" required>
                     </div>
                     <div class="form__body__entry">
                         <span>Message</span>
-                        <textarea name="message" id="" cols="30" rows="10" class="form__message"></textarea>
+                        <textarea name="message" id="" cols="30" rows="10" class="form__message"></textarea required>
                     </div>
                     <div class="form__body__entry">
                         <div data-netlify-recaptcha="true"></div>
