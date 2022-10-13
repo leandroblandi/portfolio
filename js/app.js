@@ -26,7 +26,7 @@ function validateForm() {
   }
 
   if(!validateEmail(mail.value)) {
-    window.alert(`Seems that '${mail.value}' isn't valid. Check another :-(`);
+    window.alert(`Seems that your e-mail called '${mail.value}' isn't valid. Check another :-(`);
   }
 
   if(message.value === "") {
