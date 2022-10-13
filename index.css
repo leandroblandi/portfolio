@@ -500,12 +500,25 @@ input:active, input:focus, textarea:active, textarea:focus {
     width: 95%;
   }
 
+  .more-info-section {
+    margin-top: 0;
+  }
+
   .social-media-section {
-    width: 90%;
+    width: 95%;
+    margin: 30px auto 30px auto;
+  }
+  .contact-form {
+    margin: 0 auto 30px auto;
+    width: 95%;
+  }
+
+  .form__body__submit-button input {
+    width: 100%;
   }
 }
 
-@media (max-width:1250px)
+@media (max-width:1250px) and (min-width:900px)
 {
   .social-media-section {
     width: 80%;
