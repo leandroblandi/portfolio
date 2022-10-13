@@ -16,12 +16,12 @@ function validateForm() {
 
   // Si los campos estan vacios
   if(name.value === "") {
-    window.alert("Oops!", "Your name is required. Type it :)", "warning");
+    swal("Oops!", "Your name is required. Type it :)", "warning");
     return;
   }
 
   if(mail.value === "") {
-    window.alert("Oops!", "What's your E-Mail? Type it :-)", "warning");
+    swal("Oops!", "What's your E-Mail? Type it :-)", "warning");
     return;
   }
 
@@ -30,7 +30,7 @@ function validateForm() {
   }
 
   if(message.value === "") {
-    window.alert("Oops!", "The message is empty. Write something :-)", "warning");
+    swal("Oops!", "The message is empty. Write something :-)", "warning");
     return;
   }
 
