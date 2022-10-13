@@ -394,12 +394,12 @@ input:active, input:focus, textarea:active, textarea:focus {
 
 .form__body__entry input:focus {
   transition: .3s all;
-  background: #dfdfdf;
+  background: #fafafa;
 }
 
 .form__body__entry textarea:focus {
   transition: .3s all;
-  background: #dfdfdf;
+  background: #fafafa;
 }
 
 .form__body__entry input {
