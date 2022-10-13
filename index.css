@@ -425,7 +425,7 @@ input:active, input:focus, textarea:active, textarea:focus {
   resize: none;
 }
 
-body > div.container > div.contact-form > div.contact-form__body > form > div:nth-child(5) > div > div {
+.form__body__entry div .g-recaptcha {
   display: flex;
   justify-content: center;
 }
