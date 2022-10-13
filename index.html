@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://leandroblandi.netlify.app/index.css">
+    <link rel="stylesheet" href="./index.css">
     <link rel="shortcut icon" href="https://leandroblandi.netlify.app/static/favicon.ico" type="image/x-icon">
     <script type="application/ld+json">{
         "@context": "https://schema.org/",
@@ -171,8 +171,43 @@
                 </div>
             </div>
         </div>
+        <div class="contact-form">
+            <div class="contact-form__title">
+                <h1>
+                    <i class="fa-regular fa-message"></i>
+                    Contact me
+                </h1>
+            </div>
+            <div class="contact-form__body">
+                <form action="POST" data-netlify="true">
+                    <div class="form__body__entry">
+                        <span>Name</span>
+                        <input type="text" name="" id="senderName" class="form__name">
+                    </div>
+                    <div class="form__body__entry">
+                        <span>Subject</span>
+                        <input type="text" name="subject" form="form__subject">
+                    </div>
+                    <div class="form__body__entry">
+                        <span>Message</span>
+                        <textarea name="message" id="" cols="30" rows="10" class="form__message"></textarea>
+                    </div>
+                    <div class="form__body__entry">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
+                    <div class="form__body__submit-button">
+                        <input type="submit" value="Enviar" class="form__submit-button">
+                    </div>
+                </form>
+            </div>
+            <div class="contact-form__background"></div>
+        </div>
         <div class="footer-section">
-            <p><span>Leandro Blandi&nbsp;&copy;&nbsp;|&nbsp;</span>2022</p>
+            <p>
+                <span>Leandro Blandi&nbsp;&copy;&nbsp;|&nbsp;</span>
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script></p>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>

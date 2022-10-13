@@ -17,6 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Container configuration */
 .container {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Header section */
@@ -274,8 +276,8 @@ body > div > div.header-section > div > div.header__desc > p > span {
 /* Social media section */
 
 .social-media-section {
-  margin: 30px auto;
-  width: 80%;
+  margin: 60px auto;
+  width: 60%;
   display: flex;
   flex-direction: column;
   background: #333;
@@ -335,7 +337,122 @@ body > div > div.header-section > div > div.header__desc > p > span {
   text-decoration: underline;
 }
 
+.contact-form {
+  padding: 25px 40px;
+  width: 40%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  background: #ededed;
+  color: #fff;
+  padding: 40px 40px;
+  user-select: none;
+  box-shadow: -1px 11px 25px -10px rgba(0,0,0,0.30);
+  -webkit-box-shadow: -1px 11px 25px -10px rgba(0,0,0,0.30);
+  -moz-box-shadow: -1px 11px 25px -10px rgba(0,0,0,0.30);
+}
+
+.contact-form .contact-form__title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-form .contact-form__title h1 {
+  margin: 40px 0 20px 0;
+  color: rgb(196, 93, 79);
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+.contact-form .contact-form__body {
+  width: 100%;
+}
+
+.contact-form__body form {
+  width: 100%;
+}
+
+.contact-form__body form .form__body__entry {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form__body__entry span {
+  font-family: "Bebas Neue";
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+input:active, input:focus, textarea:active, textarea:focus {
+  outline: 0 none;
+}
+
+.form__body__entry input:focus {
+  transition: .3s all;
+  border: 2px solid rgb(105, 104, 104);
+}
+
+.form__body__entry textarea:focus {
+  transition: .3s all;
+  border: 2px solid rgb(105, 104, 104);
+}
+
+.form__body__entry input {
+  font-family: "Roboto";
+  padding-left: 5px;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  background-color: #ededed;
+  color: #333;
+  border: 2px solid rgb(196, 93, 79);
+  transition: .3s all;
+}
+
+.form__body__entry textarea {
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  background-color: #ededed;
+  color: #333;
+  border: 2px solid rgb(196, 93, 79);
+  transition: .3s all;
+  resize: none;
+}
+
+.contact-form__body .form__body__submit-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__body__submit-button input {
+  margin-top: 10px;
+  width: 30%;
+  padding: 15px 40px;
+  border: none;
+  background: rgb(196, 93, 79);
+  font-family: "Bebas Neue";
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+  transition: .3s all;
+}
+
+.form__body__submit-button input:hover {
+  transition: .3s all;
+  background: rgb(105, 104, 104);
+  cursor: pointer;
+}
+
 .footer-section {
+  width: 100%;
   background: #222;
   padding: 40px 30px;
   color: #fff;
@@ -380,5 +497,15 @@ body > div > div.header-section > div > div.header__desc > p > span {
 
   .social-media-section {
     width: 90%;
+  }
+}
+
+@media (max-width:1250px)
+{
+  .social-media-section {
+    width: 80%;
+  }
+  .contact-form {
+    width: 80%;
   }
 }
