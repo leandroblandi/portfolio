@@ -492,12 +492,16 @@ input:active, input:focus, textarea:active, textarea:focus {
     margin-top: 45px;
   }
 
-  .main__skills .skills__description {
+  .main-section .main__skills {
     width: 95%;
   }
 
+  .main__skills .skills__description {
+    width: 100%;
+  }
+
   .main__skills .skills__levels {
-    width: 95%;
+    width: 100%;
   }
 
   .more-info-section {
