@@ -425,6 +425,11 @@ input:active, input:focus, textarea:active, textarea:focus {
   resize: none;
 }
 
+body > div.container > div.contact-form > div.contact-form__body > form > div:nth-child(5) > div > div {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-form__body .form__body__submit-button {
   width: 100%;
   display: flex;
