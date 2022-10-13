@@ -16,26 +16,27 @@ function validateForm() {
 
   // Si los campos estan vacios
   if(name.value === "") {
-    window.alert("Oops! Your name is required. Type it :)");
+    window.alert("Oops!", "Your name is required. Type it :)", "warning");
     return;
   }
 
   if(mail.value === "") {
-    window.alert("Oops! What's your E-Mail? Type it :-)");
+    window.alert("Oops!", "What's your E-Mail? Type it :-)", "warning");
     return;
   }
 
   if(!validateEmail(mail.value)) {
-    window.alert(`Seems that your e-mail called '${mail.value}' isn't valid. Check another :-(`);
+    swal("Oops!", `Seems that your e-mail called '${mail.value}' isn't valid. Check with another :-(`, "error");
   }
 
   if(message.value === "") {
-    window.alert("Oops! The message is empty. Write something :-)");
+    window.alert("Oops!", "The message is empty. Write something :-)", "warning");
     return;
   }
 
   // De lo contrario que se envie el formulario
   if((name.value != "") && (mail.value != "") && (validateEmail(mail.value)) && (message.value != "")) {
+    swal("So good!", "Sending your message!", "success");
     form.submit();
   }
 }
