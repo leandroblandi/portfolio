@@ -123,7 +123,7 @@ body > div > div.header-section > div > div.header__desc > p > span {
 }
 
 .main__skills .skills__description {
-  width: 30%;
+  width: 40%;
 }
 
 .skills__description, .skills__levels {
@@ -131,7 +131,7 @@ body > div > div.header-section > div > div.header__desc > p > span {
 }
 
 .main__skills .skills__levels {
-  width: 50%;
+  width: 60%;
 }
 
 .skills__description .article {
