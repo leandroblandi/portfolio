@@ -525,9 +525,11 @@ input:active, input:focus, textarea:active, textarea:focus {
 @media (max-width:1250px) and (min-width:900px)
 {
   .social-media-section {
+    margin: 30px auto;
     width: 80%;
   }
   .contact-form {
     width: 80%;
+    margin: 30px auto;
   }
 }
