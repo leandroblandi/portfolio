@@ -246,7 +246,7 @@ body > div > div.header-section > div > div.header__desc > p > span {
 /* More information section */
 .more-info-section {
   width: 100%;
-  margin: 30px auto 0;
+  margin: 0 auto;
   background: url("./static/moreInfo.svg");
   background-repeat: no-repeat;
   background-size: cover;
