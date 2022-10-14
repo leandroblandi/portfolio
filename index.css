@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Bebas Neue";
 }
 
+body {
+  min-width: 300px;
+}
+
 /* Container configuration */
 .container {
   width: 100%;
