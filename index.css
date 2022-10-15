@@ -558,12 +558,15 @@ input:active, input:focus, textarea:active, textarea:focus {
 }
 
 @media (prefers-color-scheme: dark) {
+  
   body {
     background-color: #1b1b1b;
   }
 
   .container .header-section {
     background: url("./static/pattern_black.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .header-section .header-content .header__title h1 {
@@ -590,6 +593,8 @@ input:active, input:focus, textarea:active, textarea:focus {
 
   .more-info-section {
     background: url("./static/moreInfo_black.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #d0d0d0;
   }
 
