@@ -594,6 +594,7 @@ input:active, input:focus, textarea:active, textarea:focus {
   .more-info-section {
     background: url("./static/moreInfo_black.svg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     color: #d0d0d0;
   }
@@ -604,12 +605,12 @@ input:active, input:focus, textarea:active, textarea:focus {
 
   .form__body__entry input {
     background:#222;
-    color: #e2e2e2;
+    color: #999;
   }
 
   .form__body__entry textarea {
     background: #222;
-    color: #e2e2e2;
+    color: #999;
   }
 
   .form__body__entry input:focus {
