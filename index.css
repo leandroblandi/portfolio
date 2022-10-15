@@ -585,12 +585,12 @@ input:active, input:focus, textarea:active, textarea:focus {
 
   .skills__description .article {
     background-color: #343434;
-    color: #fff;
+    color: #d0d0d0;
   }
 
   .more-info-section {
     background: url("./static/moreInfo_black.svg");
-    color: #fff;
+    color: #d0d0d0;
   }
 
   .contact-form {
@@ -606,4 +606,11 @@ input:active, input:focus, textarea:active, textarea:focus {
     background: #343434;
     color: #e2e2e2;
   }
-}
+
+  .form__body__entry input:focus {
+    background-color: #494949;
+  }
+
+  .form__body__entry textarea:focus {
+    background-color: #494949;
+  }
