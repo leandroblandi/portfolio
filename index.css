@@ -599,24 +599,24 @@ input:active, input:focus, textarea:active, textarea:focus {
   }
 
   .contact-form {
-    background-color: #343434;
+    background-color: #222;
   }
 
   .form__body__entry input {
-    background:#343434;
+    background:#222;
     color: #e2e2e2;
   }
 
   .form__body__entry textarea {
-    background: #343434;
+    background: #222;
     color: #e2e2e2;
   }
 
   .form__body__entry input:focus {
-    background-color: #494949;
+    background-color: #343434;
   }
 
   .form__body__entry textarea:focus {
-    background-color: #494949;
+    background-color: #343434;
   }
 }
