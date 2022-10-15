@@ -454,6 +454,7 @@ input:active, input:focus, textarea:active, textarea:focus {
   font-size: 20px;
   letter-spacing: 1px;
   transition: .3s all;
+  border-radius: 2px;
 }
 
 .form__body__submit-button input:hover {
