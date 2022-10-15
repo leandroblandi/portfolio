@@ -556,3 +556,50 @@ input:active, input:focus, textarea:active, textarea:focus {
     margin: 30px auto;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1b1b1b;
+  }
+
+  .container .header-section {
+    background: url("./static/pattern_black.svg");
+  }
+
+  .header-section .header-content .header__title h1 {
+    color: #e2e2e2;
+  }
+
+  .header__title h1 .name {
+    color: rgb(196, 93, 79);
+    font-family: "Bebas Neue";
+  }
+
+  .header-content .header__desc p.autotype {
+    color: #dadada;
+  }
+
+  .skills__description .article {
+    background-color: #343434;
+    color: #fff;
+  }
+
+  .more-info-section {
+    background: url("./static/moreInfo_black.svg");
+    color: #fff;
+  }
+
+  .contact-form {
+    background-color: #343434;
+  }
+
+  .form__body__entry input {
+    background:#343434;
+    color: #e2e2e2;
+  }
+
+  .form__body__entry textarea {
+    background: #343434;
+    color: #e2e2e2;
+  }
+}
