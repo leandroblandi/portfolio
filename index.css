@@ -526,6 +526,18 @@ input:active, input:focus, textarea:active, textarea:focus {
   }
 }
 
+@media (min-width:800px) and (max-width:900px) {
+
+  .social-media-section {
+    width: 95%;
+  }
+
+  .contact-form {
+    width: 95%;
+  }
+  
+}
+
 @media (max-width:1250px) and (min-width:900px)
 {
   .social-media-section {
@@ -535,13 +547,5 @@ input:active, input:focus, textarea:active, textarea:focus {
   .contact-form {
     width: 80%;
     margin: 30px auto;
-  }
-
-  .social-media-section {
-    width: 95%;
-  }
-
-  .contact-form {
-    width: 95%;
   }
 }
