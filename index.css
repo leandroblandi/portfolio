@@ -357,8 +357,6 @@ body > div > div.header-section > div > div.header__desc > p > span {
 }
 
 .contact-form .contact-form__title {
-  display: flex;
-  align-items: center;
   width: 100%;
 }
 
@@ -367,6 +365,12 @@ body > div > div.header-section > div > div.header__desc > p > span {
   color: rgb(196, 93, 79);
   font-size: 42px;
   letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-form .contact-form__title h1 i {
+  margin-right: 5px;
 }
 
 .contact-form .contact-form__body {
