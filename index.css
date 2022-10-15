@@ -536,4 +536,12 @@ input:active, input:focus, textarea:active, textarea:focus {
     width: 80%;
     margin: 30px auto;
   }
+
+  .social-media-section {
+    width: 95%;
+  }
+
+  .contact-form {
+    width: 95%;
+  }
 }
