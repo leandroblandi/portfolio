@@ -416,6 +416,7 @@ input:active, input:focus, textarea:active, textarea:focus {
   color: #333;
   border: 2px solid rgb(196, 93, 79);
   transition: .3s all;
+  border-radius: 2px;
 }
 
 .form__body__entry textarea {
@@ -427,6 +428,7 @@ input:active, input:focus, textarea:active, textarea:focus {
   border: 2px solid rgb(196, 93, 79);
   transition: .3s all;
   resize: none;
+  border-radius: 2px;
 }
 
 .form__body__entry div .g-recaptcha {
