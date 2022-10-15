@@ -58,11 +58,22 @@ function startTypingDescription() {
   ).go();
 }
 
+function addDarkRecaptcha(){
+  let recaptchaBox = document.querySelector(".g-recaptcha");
+  recaptchaBox.setAttribute("data-theme", "dark");
+}
+
 
 // Cuando cargue el documento
 document.addEventListener("DOMContentLoaded", ()=> {
 
   startTypingDescription();
+
+  const prefersDarkMode = window.matchMedia("(prefers-color-scheme:dark)").matches;
+
+  if(prefersDarkMode){
+    addDarkRecaptcha();
+  }
 
 });
 
