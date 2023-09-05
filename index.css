@@ -246,6 +246,18 @@ body > div > div.header-section > div > div.header__desc > p > span {
   width: 70%;
 }
 
+.java {
+  width: 85%;
+}
+
+.hibernate {
+  width: 60%;
+}
+
+.angular {
+  width: 75%;
+}
+
 
 /* More information section */
 .more-info-section {
@@ -255,9 +267,6 @@ body > div > div.header-section > div > div.header__desc > p > span {
   background-size: cover;
   color: #444;
   padding: 80px 50px;
-  box-shadow: -1px 11px 25px -10px rgba(0,0,0,0.30);
-  -webkit-box-shadow: -1px 11px 25px -10px rgba(0,0,0,0.30);
-  -moz-box-shadow: -1px 11px 25px -10px rgba(0,0,0,0.30);
   user-select: none;
 }
 
