@@ -127,7 +127,7 @@ body > div > div.header-section > div > div.header__desc > p > span {
 }
 
 .main__skills .skills__description {
-  width: 40%;
+  width: 90%;
 }
 
 .skills__description, .skills__levels {
@@ -251,7 +251,6 @@ body > div > div.header-section > div > div.header__desc > p > span {
 .more-info-section {
   width: 100%;
   margin: 0 auto;
-  background: url("./static/moreInfo.svg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #444;
@@ -592,7 +591,6 @@ input:active, input:focus, textarea:active, textarea:focus {
   }
 
   .more-info-section {
-    background: url("./static/moreInfo_black.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

@@ -46,7 +46,7 @@ function startTypingDescription() {
 
   new TypeIt(".autotype",
   {
-    strings: ["Trainee Developer", "Software Development Student"],
+    strings: ["Backend Developer", "Estudiante de Licenciatura en Sistemas"],
     speed: 120,
     lifeLike: true,
     cursor: true,
